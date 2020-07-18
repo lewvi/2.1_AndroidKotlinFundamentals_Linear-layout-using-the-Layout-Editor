@@ -19,7 +19,7 @@
     <ImageView
         android:id="@+id/star_image"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="227dp"
         android:layout_margin="16dp"
         android:contentDescription="@string/yello_star"
         app:srcCompat="@drawable/j1" />
@@ -29,17 +29,33 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <TextView
-            android:id="@+id/bio_text"
-            style="@style/NameStyle"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:lineSpacingMultiplier="1.2"
-            android:orientation="vertical"
-            android:padding="16dp"
-            android:paddingStart="@dimen/layout_margin"
-            android:paddingEnd="@dimen/small_padding"
-            android:text="@string/bio" />
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/bio_text"
+                style="@style/NameStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lineSpacingMultiplier="1.2"
+                android:orientation="vertical"
+                android:padding="16dp"
+                android:paddingStart="@dimen/layout_margin"
+                android:paddingEnd="@dimen/small_padding"
+                android:text="@string/bio"
+                android:textColor="#0C0000" />
+
+            <ImageView
+                android:id="@+id/star_image2"
+                android:layout_width="match_parent"
+                android:layout_height="277dp"
+                android:layout_margin="16dp"
+                android:contentDescription="@string/star_yello2"
+                app:srcCompat="@drawable/j2" />
+
+        </LinearLayout>
 
     </ScrollView>
 

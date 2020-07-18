@@ -2,5 +2,6 @@
     <string name="app_name">HelloWorld</string>
     <string name="name">Nutthakul</string>
     <string name="yello_star">yello star</string>
-    <string name="bio">Hello Nutthakul</string>
+    <string name="bio">Hello Nutthakul </string>
+    <string name="star_yello2">16dp</string>
 </resources>
